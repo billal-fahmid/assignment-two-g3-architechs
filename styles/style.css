@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* some common style */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+    color: #131313;
+}
+.section-text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 30px;
+
+}
+.primary-color{
+    color: #727272;
+}
+.secondary-color{
+    color: #FF900E;
+}
+
+
+/* ------------------------------
+        this is nav area start 
+    ------------------------------*/
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* .section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+    color: #131313;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+    
+}
+.navbar >ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    
+}
+.navbar >ul li{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 26px;
+    color: #424242;
+}
+
+.navbar >ul li a{
+    text-decoration: none;
+}
+
+
+/* ------------------------------
+        this is nav area end 
+    ------------------------------*/
+
+/* ------------------------------
+        this is landing page area start
+    ------------------------------*/
+.landing-page{
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+.landing-page-content{
+    text-align: center;
+}
+.page-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    padding-bottom: 30px;
+}
+.page-banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* ------------------------------
+        this is landing page area end
+    ------------------------------*/
+
+/* ------------------------------
+        this is quick list area start
+    ------------------------------*/
+.quick-list-area{
+    display: flex;
+    padding-top: 85px;
+    padding-bottom: 130px;
+    width: 100%;
+}
+.photo-gellary{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    max-width: 570px;
+    width: 100%;
+    
+    
+}
+.photo-gellary img{
+    width: 100%;
+    height: 100%;
+}
+
+.quick-lists{
+    
+    width: 100%;
+    max-width: 570px;
+    padding-left: 73px;
+    margin-top: 130px;
+   
+}
+.title-padding{
+    padding-bottom: 24px;
+}
+.padding-text{
+    padding-top: 24px;
+}
+.padding_text{
+    padding-top: 10px;
+}
+
+/* ------------------------------
+        this is quick list area end
+    ------------------------------*/
+
+/* ------------------------------
+        this is quick list area end
+    ------------------------------*/
+.features-area{
+    display: flex;
+}
+.feature-top{
+    width: 100%;
+    max-width: 570px;
+}
+.feature-image{
+    width: 100%;
+    max-width: 570px;
+}
+.border-left{
+    border-left:#FF900E solid 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+    
+}
+.feature-all{
+    padding-top: 60px;
+}
+.feature{
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 30px;
+}
+.feature-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.feature-image img{
+    width: 85%;
+    height: 85%;
+    max-width: 570px;
+    overflow: hidden;
+    /* position: absolute; */
+    /* margin-right: 50px;
+    margin-bottom: 50px; */
+}
+
+.year{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left: -100px;
+}
+.year h3{
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.year p{
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+/* ------------------------------
+        this is quick list area end
+    ------------------------------*/
