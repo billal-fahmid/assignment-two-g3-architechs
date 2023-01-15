@@ -51,7 +51,6 @@ body{
     padding-top: 10px;
 }
 
-
 /* ------------------------------
         this is nav area start 
     ------------------------------*/
@@ -59,25 +58,16 @@ header{
     background: rgba(255, 144, 14, 0.1);
 }
 
-/* .section-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 53px;
-    color: #131313;
-} */
-
 .navbar{
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
     align-items: center;
-    
 }
 .navbar >ul{
     display: flex;
     list-style: none;
     gap: 50px;
-    
 }
 .navbar >ul li{
     font-size: 1.125rem;
@@ -85,12 +75,9 @@ header{
     line-height: 26px;
     color: #424242;
 }
-
 .navbar >ul li a{
     text-decoration: none;
 }
-
-
 /* ------------------------------
         this is nav area end 
     ------------------------------*/
@@ -104,6 +91,7 @@ header{
 }
 .landing-page-content{
     text-align: center;
+    
 }
 .page-title{
     font-size: 4rem;
@@ -115,7 +103,6 @@ header{
     width: 100%;
     margin-top: 50px;
 }
-
 /* ------------------------------
         this is landing page area end
     ------------------------------*/
@@ -135,30 +122,23 @@ header{
     gap: 24px;
     max-width: 570px;
     width: 100%;
-    
-    
 }
 .photo-gellary img{
     width: 100%;
     height: 100%;
 }
-
 .quick-lists{
-    
     width: 100%;
     max-width: 570px;
     padding-left: 73px;
-    margin-top: 130px;
-   
+    margin-top: 130px;   
 }
-
-
 /* ------------------------------
         this is quick list area end
     ------------------------------*/
 
 /* ------------------------------
-        this is quick list area end
+        this is feature area end
     ------------------------------*/
 .features-area{
     display: flex;
@@ -177,7 +157,6 @@ header{
     border-left:#FF900E solid 5px;
     padding-left: 15px;
     border-radius: 5px;
-    
 }
 .feature-all{
     padding-top: 30px;
@@ -196,13 +175,9 @@ header{
 .feature-image img{
     width: 85%;
     height: 100%;
-    /* max-width: 570px; */
     overflow: hidden;
     position: static;
-    /* margin-right: 50px;
-    margin-bottom: 50px; */
 }
-
 .year {
     width: 300px;
     height: 180px;
@@ -223,11 +198,9 @@ header{
 .year p{
     font-size: 16px;
     color: #FFFFFF;
-    
 }
-
 /* ------------------------------
-        this is quick list area end
+        this is feature area end
     ------------------------------*/
 
 
@@ -303,7 +276,7 @@ header{
         this is sponspors area start
     ------------------------------*/
 .footer{
-    height: 100px;
+    /* height: 100px; */
     background-color: #FFF4E7;
     text-align: center; 
     margin-bottom: 100px;
@@ -312,8 +285,74 @@ header{
     font-size: 20px;
     font-weight: 400;
     color: #424242;
-    padding-top: 40px;
+    padding: 30px 0;
+
+}
+
+.hide{
+    display: none;
 }
 /* ------------------------------
         this is sponspors area start
     ------------------------------*/
+
+    /* this Moblie Responsive style */
+@media only screen and (max-width:576px) {
+    .container{
+        /* padding: 0 25px; */
+        width: 100%;
+        max-width: 576px;
+    }
+    /* for navbar */
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 25px;
+    }
+    .navbar >ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* for landing page */
+    .page-banner{
+        text-align: center;
+    }
+    .page-banner img{
+        width: 90%;
+    }
+    /* for quick list */
+    .quick-list-area{
+        flex-direction: column-reverse;
+        
+    }
+    .photo-gellary{
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .quick-lists{
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 30px;
+     
+    }
+    /* for features area */
+    .features-area{
+        flex-direction: column;
+    }
+    .feature-top{
+        text-align: center;
+    }
+    /* for facts area */
+    .fact-area{
+        text-align: center;
+    }
+    .facts{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    /* for sponspore  */
+    .sponspors-logo{
+        flex-wrap: wrap;
+    }
+}
