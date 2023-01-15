@@ -41,6 +41,15 @@ body{
 .secondary-color{
     color: #FF900E;
 }
+.title-padding{
+    padding-bottom: 24px;
+}
+.padding-text{
+    padding-top: 24px;
+}
+.padding_text{
+    padding-top: 10px;
+}
 
 
 /* ------------------------------
@@ -142,15 +151,7 @@ header{
     margin-top: 130px;
    
 }
-.title-padding{
-    padding-bottom: 24px;
-}
-.padding-text{
-    padding-top: 24px;
-}
-.padding_text{
-    padding-top: 10px;
-}
+
 
 /* ------------------------------
         this is quick list area end
@@ -162,13 +163,15 @@ header{
 .features-area{
     display: flex;
 }
-.feature-top{
+.features-content{
     width: 100%;
-    max-width: 570px;
+    max-width: 500px;
+    flex-shrink: 0;
 }
-.feature-image{
+.feature-right{
     width: 100%;
     max-width: 570px;
+    text-align: right;
 }
 .border-left{
     border-left:#FF900E solid 5px;
@@ -177,7 +180,7 @@ header{
     
 }
 .feature-all{
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .feature{
     margin-bottom: 20px;
@@ -192,28 +195,30 @@ header{
 
 .feature-image img{
     width: 85%;
-    height: 85%;
-    max-width: 570px;
+    height: 100%;
+    /* max-width: 570px; */
     overflow: hidden;
-    /* position: absolute; */
+    position: static;
     /* margin-right: 50px;
     margin-bottom: 50px; */
 }
 
-.year{
-    width: 342px;
-    height: 200px;
+.year {
+    width: 300px;
+    height: 180px;
     background: #FF900E;
     border-radius: 8px;
     text-align: center;
     position: relative;
-    top: -100px;
-    left: -100px;
+    top: -77px;
+    left: 21px;
+    align-items: center;
 }
 .year h3{
     font-size: 65px;
     font-weight: 700;
     color: #FFFFFF;
+    padding-top: 2rem;
 }
 .year p{
     font-size: 16px;
@@ -223,4 +228,92 @@ header{
 
 /* ------------------------------
         this is quick list area end
+    ------------------------------*/
+
+
+/* ------------------------------
+        this is fact area start
+    ------------------------------*/
+.fact-area{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.facts{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.fact{
+    height: 240px;
+    width: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+.fact:hover{
+    transform: rotate(3deg);
+    transition: .5s;
+}
+.fact img{
+    height: 45px;
+    width: 45px;
+    padding-top: 45px;
+}
+.fact h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    padding-top: 10px;
+}
+.fact p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    padding-top: 5px;
+}
+/* ------------------------------
+        this is fact area end
+    ------------------------------*/
+
+/* ------------------------------
+        this is sponspors area start
+    ------------------------------*/
+.sponspors-area{
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+.sponspors-top{
+    text-align: center;
+}
+.sponspors-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.sponspors-logo img{
+    width: 165px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+/* ------------------------------
+        this is sponspors area start
+    ------------------------------*/
+
+    /* ------------------------------
+        this is sponspors area start
+    ------------------------------*/
+.footer{
+    height: 100px;
+    background-color: #FFF4E7;
+    text-align: center; 
+    margin-bottom: 100px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    padding-top: 40px;
+}
+/* ------------------------------
+        this is sponspors area start
     ------------------------------*/
