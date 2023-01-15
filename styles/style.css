@@ -269,17 +269,73 @@ header{
     filter: grayscale(100%);
 }
 /* ------------------------------
-        this is sponspors area start
+        this is sponspors area end
     ------------------------------*/
 
-    /* ------------------------------
-        this is sponspors area start
+     /* ------------------------------
+        this is Extra section ,like contact area start
     ------------------------------*/
-.footer{
-    /* height: 100px; */
+.extra-section{
+    background-color: #fff4e770;
+}
+.contact-area{
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.contact-left p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #727272;
+}
+.contact-left p i{
+    padding-right: 10px;
+}
+.socail-media{
+    color: rgb(3, 3, 57);
+    font-size: 2rem;
+    padding-top: 50px;
+
+}
+.socail-media i{
+    padding-right: 15px;
+}
+.contact-right input,textarea{
+    color: black;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #fad6aaee;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.input{
+    font-size: 1rem;
+    padding-left: 20px;
+}
+textarea{
+    height: 80px;
+    padding-top: 20px;
+}
+.btn-secondary{
+    width: 300px;
+    height: 50px;
+}
+
+
+     /* ------------------------------
+        this is footer area start
+    ------------------------------*/
+footer{
     background-color: #FFF4E7;
+}
+.footer{
     text-align: center; 
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 .footer-text{
     font-size: 20px;
@@ -322,7 +378,7 @@ header{
     }
     /* for quick list */
     .quick-list-area{
-        flex-direction: column-reverse;
+        flex-direction: column;
         
     }
     .photo-gellary{
@@ -354,5 +410,13 @@ header{
     /* for sponspore  */
     .sponspors-logo{
         flex-wrap: wrap;
+    }
+    /* extra area  */
+    .contact-area{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-right{
+        padding-top: 30px;
     }
 }
